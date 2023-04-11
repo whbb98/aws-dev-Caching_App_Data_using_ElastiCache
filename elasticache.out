@@ -1,0 +1,43 @@
+{
+    "CacheClusters": [
+        {
+            "CacheClusterId": "memcachedcache",
+            "ConfigurationEndpoint": {
+                "Address": "memcachedcache.t4beqh.cfg.use1.cache.amazonaws.com",
+                "Port": 11211
+            },
+            "ClientDownloadLandingPage": "https://console.aws.amazon.com/elasticache/home#client-download:",
+            "CacheNodeType": "cache.r6g.large",
+            "Engine": "memcached",
+            "EngineVersion": "1.6.6",
+            "CacheClusterStatus": "available",
+            "NumCacheNodes": 3,
+            "PreferredAvailabilityZone": "Multiple",
+            "CacheClusterCreateTime": "2023-04-11T06:39:05.772000+00:00",
+            "PreferredMaintenanceWindow": "sat:09:30-sat:10:30",
+            "PendingModifiedValues": {},
+            "CacheSecurityGroups": [],
+            "CacheParameterGroup": {
+                "CacheParameterGroupName": "default.memcached1.6",
+                "ParameterApplyStatus": "in-sync",
+                "CacheNodeIdsToReboot": []
+            },
+            "CacheSubnetGroupName": "elasticachesubnetgroup",
+            "AutoMinorVersionUpgrade": true,
+            "SecurityGroups": [
+                {
+                    "SecurityGroupId": "sg-058477a2e39e19bc1",
+                    "Status": "active"
+                }
+            ],
+            "AuthTokenEnabled": false,
+            "TransitEncryptionEnabled": false,
+            "AtRestEncryptionEnabled": false,
+            "ARN": "arn:aws:elasticache:us-east-1:707596474364:cluster:memcachedcache",
+            "ReplicationGroupLogDeliveryEnabled": false,
+            "LogDeliveryConfigurations": [],
+            "NetworkType": "ipv4",
+            "IpDiscovery": "ipv4"
+        }
+    ]
+}

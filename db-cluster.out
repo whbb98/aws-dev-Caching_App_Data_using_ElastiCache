@@ -1,0 +1,10 @@
+{
+    "DBClusterEndpoints": [
+        {
+            "DBClusterIdentifier": "supplierdb",
+            "Endpoint": "supplierdb.cluster-cl9gp0u6fint.us-east-1.rds.amazonaws.com",
+            "Status": "available",
+            "EndpointType": "WRITER"
+        }
+    ]
+}
