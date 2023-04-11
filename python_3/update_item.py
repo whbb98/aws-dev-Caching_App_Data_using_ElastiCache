@@ -1,11 +1,11 @@
 import MySQLdb 
 from pymemcache.client import base
 
-memcached_client = base.Client(('<FMI_1>', 11211))
+memcached_client = base.Client(('memcachedcache.t4beqh.cfg.use1.cache.amazonaws.com', 11211))
 TTL_INT = 60 * 3; # 3 min cache
 
 mydb = MySQLdb.connect(
-  "<FMI_2>",
+  "supplierdb.cluster-cl9gp0u6fint.us-east-1.rds.amazonaws.com",
   "nodeapp",
   "coffee",
   "COFFEE"
